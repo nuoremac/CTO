@@ -1,0 +1,25 @@
+# Docker is a platform that lets you package, ship, and run applications in isolated environments 
+# called containers.
+services:
+  db:
+    container_name: postgres-nuit-info
+    image: postgres:14.19-alpine3.21
+    environment:
+      POSTGRES_USER: codelions
+      POSTGRES_PASSWORD: password
+      PGDATA: /data/postgres
+      POSTGRES_DB: decathondb
+    volumes:
+      - db:/data/postgres
+    ports:
+      - "5335:5432"
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+      db:
+        driver: bridge
+volumes:
+  db:
+
