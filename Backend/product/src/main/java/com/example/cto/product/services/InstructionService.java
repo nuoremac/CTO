@@ -13,12 +13,17 @@ import java.util.stream.Collectors;
 @Service
 @RequiredArgsConstructor
 public class InstructionService {
-
+    private int set;
     private final ExerciseRepository exerciseRepository;
 
     public List<Exercise> getAllowedExercises(UserProfile profile) {
         String equipment = profile.getEquipment() != null ? profile.getEquipment().toLowerCase() : "aucun matériel";
-
+        if(profile.getGender().equals("garcon") || profile.getQuest().equals("Bouger plus")) {
+           set = 20;
+        }
+        if(profile.getGender().equals("fille") && profile.getQuest().equals("") || profile.getGender().equals("garcon") && profile.getQuest().equals("Être en meilleure forme")) {
+           set = 15;
+        }
         return exerciseRepository.getAllExercises().stream()
 
                 // 1️⃣ Avoid exercises that stress pain areas
