@@ -21,10 +21,10 @@ Ce projet répond intégralement aux **4 niveaux du défi** proposé par Decathl
 
 ## 🔗 Lien de la version en ligne
 
-👉 [https://cto-g1v0zp7uc-nuoremacs-projects.vercel.app/](https://cto-g1v0zp7uc-nuoremacs-projects.vercel.app/)
+👉 [https://cto-alpha.vercel.app/](https://cto-g1v0zp7uc-nuoremacs-projects.vercel.app/)
 
 
----https://cto-g1v0zp7uc-nuoremacs-projects.vercel.app/
+---
 
 ## 📌 Fonctionnalités principales
 
