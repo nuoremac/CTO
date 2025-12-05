@@ -131,9 +131,9 @@ export default function MovementSelector({ onCompleted }) {
           return (
             <button
               key={mvt.id}
-              className={`movement-card 3d-tilt ${
-                selectedMovement?.id === mvt.id ? 'active' : ''
-              }`}
+              className={`movement-card tilt-3d ${
+  selectedMovement?.id === mvt.id ? 'active' : ''
+}`}
               type="button"
               onClick={() => handleSelect(mvt)}
             >

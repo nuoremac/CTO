@@ -214,7 +214,7 @@ export default function Quiz({ onCompleted }) {
           </p>
         )}
 
-        <button type="submit" className="cta-btn 3d-bounce">
+        <button type="submit" className="cta-btn bounce-3d">
           Validate my profile ✔
         </button>
       </form>

@@ -1,4 +1,4 @@
-/* 3D tilt on hover */
+/* 3D tilt on hover
 .3d-tilt {
   transform-style: preserve-3d;
   transition: transform 0.25s ease, box-shadow 0.25s ease;
@@ -9,10 +9,10 @@
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.7);
 }
 
-/* Bounce for CTA */
+
 .3d-bounce {
   animation: soft-bounce 1.5s infinite ease-in-out;
-}
+} */
 
 @keyframes soft-bounce {
   0%,
@@ -25,9 +25,9 @@
 }
 
 /* Flip animation for pose card */
-.3d-flip {
+/* .3d-flip {
   animation: slow-flip 7s infinite linear;
-}
+} */
 
 @keyframes slow-flip {
   0% {

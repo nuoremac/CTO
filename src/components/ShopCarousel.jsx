@@ -31,7 +31,7 @@ export default function ShopCarousel() {
   return (
     <div>
       <h3 className="subheading">🛒 Gear for this movement</h3>
-      <div className="shop-card-inner 3d-tilt">
+      <div className="shop-card-inner tilt-3d">
         <p className="shop-movement-label">{selectedMovement.name}</p>
         <p className="shop-product-type">{current.type}</p>
         <p className="shop-product-name">{current.name}</p>
