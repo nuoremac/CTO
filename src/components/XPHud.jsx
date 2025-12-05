@@ -25,7 +25,7 @@ export default function XPHud() {
           />
         </div>
       </div>
-      <div className="xp-score">🏆m {xp} XP</div>
+      <div className="xp-score">🏆 {xp} XP</div>
     </div>
   );
 }
