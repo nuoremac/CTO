@@ -1,0 +1,36 @@
+:root {
+  --bg-dark: #040714;
+  --bg-card: rgba(12, 20, 40, 0.85);
+  --accent: #00e0ff;
+  --accent-soft: #4bf2ff;
+  --text-main: #f5f7ff;
+  --text-muted: #a0aac8;
+  --danger: #ff4b81;
+  --radius-xl: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'SF Pro Text',
+    'Roboto', sans-serif;
+  background: radial-gradient(circle at top, #151b3c, #040714 60%);
+  color: var(--text-main);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
