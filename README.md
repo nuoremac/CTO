@@ -1,6 +1,6 @@
 
 # 🏆 CTO de Votre Santé Posturale
-https://cto-g1v0zp7uc-nuoremacs-projects.vercel.app/
+
 ### Projet – Nuit de l’Informatique 2024 – Défi Decathlon Digital
 
 Bienvenue dans notre application **CTO de Votre Santé Posturale**, un coach sportif intelligent destiné à aider les utilisateurs à réaliser correctement des mouvements, à prévenir les blessures et à améliorer leur posture.
